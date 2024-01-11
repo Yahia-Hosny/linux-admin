@@ -1,0 +1,19 @@
+ create
+      /home/student/linux
+         — centos
+               — commands. txt
+               — security.txt
+              L— updates
+                 L— latest
+
+         — ubuntu
+              L— apt.txt
+
+ 
+mkdir -p ~/linux/centos/updates  ~/linux/ubuntu 
+
+
+touch ~/linux/centos/commands.txt  ~/linux/centos/security.txt  ~/linux/centos/commands.txt  ~/linux/ubuntu/apt.txt
+
+
+
