@@ -77,10 +77,22 @@ ________________________________________________________________________________
 
  __________________________________________________________________________________
   
- copy the file called security.txt to ubuntu directory as sec.txt
-  
+   1-  Create a file named users.txt by redirecting the output of the who command.
+
+   2-  Display the file contents.
+
+   3- Remove the file in a secure manner by overwriting the file 50 times before removing it.
   
  -> cd ~/linux
- -> cp -l ./redhat/security.txt  ./ubuntu/sec.txt
+ -> who > users.txt
+ -> cat users.txt
+ -> shred -vu -n 100 users.txt
+
+
+____________________________________________________________________________________
+
+Remove the entire directory structure without prompting.
+
+ -> rm -fr ~/linux 
  
  
