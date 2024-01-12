@@ -1,0 +1,86 @@
+ create
+      /home/student/linux
+         — centos
+               — commands. txt
+               — security.txt
+              L— updates
+                 L— latest
+
+         — ubuntu
+              L— apt.txt
+
+ 
+-> mkdir -p ~/linux/centos/updates  ~/linux/ubuntu 
+
+
+-> touch ~/linux/centos/commands.txt  ~/linux/centos/security.txt  ~/linux/centos/updates/latest  ~/linux/ubuntu/apt.txt
+
+
+________________________________________________________________________________
+
+copy the file called security.txt to the updates directory
+
+
+-> cd ~/linux 
+-> cp centos/security.txt ./centos/updates/
+
+
+
+__________________________________________________________________________________
+
+
+
+remove the file called security.txt from the directory called updates.
+
+-> cd ~/linux
+-> rm ./centos/updates/security.txt 
+
+
+__________________________________________________________________________________
+
+copy the directory called updates from centos to ubuntu
+
+-> cd ~/linux 
+-> rm -r ./ubuntu/centos/  ./ubuntu/ubuntu/
+
+__________________________________________________________________________________
+
+remove the file called apt.txt and the directory called updates from the linux directory interactively (by prompting the user)
+
+
+-> cd ~/linux 
+-> rm -ri ./ubuntu/apt.txt  ./centos/updates/ 
+
+
+
+__________________________________________________________________________________
+
+rename the directory called centos to redhat and then back to centos
+
+-> cd   ~/linux 
+-> mv  ./centos/  ./redhat/
+
+
+
+
+
+
+__________________________________________________________________________________
+ 
+ copy the file called security.txt to ubuntu directory as sec.txt
+
+
+ -> cd ~/linux
+ -> cp -l ./redhat/security.txt  ./ubuntu/sec.txt
+
+
+
+ __________________________________________________________________________________
+  
+ copy the file called security.txt to ubuntu directory as sec.txt
+  
+  
+ -> cd ~/linux
+ -> cp -l ./redhat/security.txt  ./ubuntu/sec.txt
+ 
+ 
